@@ -118,6 +118,9 @@
     <loc>https://preview.carpentries.org/docker-introduction/instructor/running-containers.html</loc>
   </url>
   <url>
+    <loc>https://preview.carpentries.org/docker-introduction/instructor/singularity.html</loc>
+  </url>
+  <url>
     <loc>https://preview.carpentries.org/docker-introduction/instructor/slides.html</loc>
   </url>
   <url>
@@ -146,6 +149,9 @@
   </url>
   <url>
     <loc>https://preview.carpentries.org/docker-introduction/running-containers.html</loc>
+  </url>
+  <url>
+    <loc>https://preview.carpentries.org/docker-introduction/singularity.html</loc>
   </url>
   <url>
     <loc>https://preview.carpentries.org/docker-introduction/slides.html</loc>

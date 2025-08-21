@@ -99,7 +99,7 @@
           <button class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-expanded="false">
             More <i data-feather="chevron-down"></i>
           </button>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="reference.html">Glossary</a></li>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown"><li><a class="dropdown-item" href="06-containers-on-the-cloud.html">Creating Containers on the Cloud</a></li><li><a class="dropdown-item" href="08-orchestration.html">Container Orchestration</a></li><li><a class="dropdown-item" href="discuss.html">Discussion</a></li><li><a class="dropdown-item" href="e01-github-actions.html">Using Docker with GitHub Actions</a></li><li><a class="dropdown-item" href="reference.html">Glossary</a></li>
           </ul></li>
       </ul></div>
     <!--
@@ -319,7 +319,7 @@
                       <li>
                         <a href="profiles.html">Learner Profiles</a>
                       </li>
-                      <li><a href="discuss.html">Discussion</a></li><li><a href="reference.html">Glossary</a></li>
+                      <li><a href="06-containers-on-the-cloud.html">Creating Containers on the Cloud</a></li><li><a href="08-orchestration.html">Container Orchestration</a></li><li><a href="discuss.html">Discussion</a></li><li><a href="e01-github-actions.html">Using Docker with GitHub Actions</a></li><li><a href="reference.html">Glossary</a></li>
                     </ul></div>
                 </div>
               </div>
@@ -355,7 +355,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Examples of Using Container Images in Practice</h1>
-        <p>Last updated on 2024-09-12 |
+        <p>Last updated on 2025-08-21 |
 
         <a href="https://github.com/carpentries-incubator/docker-introduction/edit/main/episodes/docker-image-examples.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -405,30 +405,9 @@ Ask @mkuzak to make a PR to add extra for <https://github.com/escience-academy/d
 
 -->
 </section><section><h2 class="section-heading" id="using-containers-on-an-hpc-cluster">Using Containers on an HPC Cluster<a class="anchor" aria-label="anchor" href="#using-containers-on-an-hpc-cluster"></a></h2>
-<hr class="half-width"><p>It is possible to run containers on shared computing systems run by a
-university or national computing center. As a researcher, you can build
-container images and test containers on your own computer and then run
-your full-scale computing work on a shared computing system like a high
-performance cluster or high throughput grid.</p>
-<p>The catch? Most university and national computing centers do not
-support <em>running</em> containers with Docker commands, and instead
-use a similar tool called Singularity or Shifter. However, both of these
-programs can be used to run containers based on Docker container images,
-so often people create their container image as a Docker container
-image, so they can run it using either of Docker or Singularity.</p>
-<p>There isn’t yet a working example of how to use Docker container
-images on a shared computing system, partially because each system is
-slightly different, but the following resources show what it can look
-like:</p>
-<ul><li>
-<a href="https://carpentries-incubator.github.io/singularity-introduction/" class="external-link">Introduction
-to Singularity</a>: See the episode titled “Running MPI parallel jobs
-using Singularity containers”</li>
-<li>
-<a href="https://pawseysc.github.io/container-workflows/" class="external-link">Container
-Workflows at Pawsey</a>: See the episode titled “Run containers on HPC
-with Shifter (and Singularity)”</li>
-</ul></section><section><h2 class="section-heading" id="seeking-examples">Seeking Examples<a class="anchor" aria-label="anchor" href="#seeking-examples"></a></h2>
+<hr class="half-width"><p><a href="singularity.html">In this example</a>, you will learn about
+using running containers on HPC clusters.</p>
+</section><section><h2 class="section-heading" id="seeking-examples">Seeking Examples<a class="anchor" aria-label="anchor" href="#seeking-examples"></a></h2>
 <hr class="half-width"><p>Do you have another example of using Docker in a workflow related to
 your field? Please <a href="https://github.com/carpentries-incubator/docker-introduction/issues/new" class="external-link">open
 a lesson issue</a> or <a href="https://github.com/carpentries-incubator/docker-introduction/pulls" class="external-link">submit
@@ -503,9 +482,9 @@ images in your research project.</li>
   "creativeWorkStatus": "active",
   "url": "https://preview.carpentries.org/docker-introduction/docker-image-examples.html",
   "identifier": "https://preview.carpentries.org/docker-introduction/docker-image-examples.html",
-  "dateCreated": "2025-05-13",
-  "dateModified": "2024-09-12",
-  "datePublished": "2025-08-19"
+  "dateCreated": "2025-08-21",
+  "dateModified": "2025-08-21",
+  "datePublished": "2025-08-21"
 }
 
   </script><script>
